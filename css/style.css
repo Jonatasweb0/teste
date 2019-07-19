@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5. h6 {
+	font-family: 'Montserrat';
+}
+body {
+	font-family: arial;
+	height: 4000px;
+}
+ul, ol, dl {
+	margin: 0;
+	padding: 0;
+}
+.main-header, .main-nav {
+	background-color: #f5f6fa;
+	color: #660404;
+	height: 90px;
+}
+.main-nav .social-list img {
+	width: 20px;
+	height: 20px;
+}
+
+/*SOBRE*/
+#about {
+	padding: 70px 0;
+}
+#about .contadores .contadores-item .count-item-sub {
+	color: #b38282;
+	font-size: 34px;
+	opacity: 0.7
+}
+#about .contadores .contadores-item .count-item-dado {
+	color: #660404;
+	font-size: 50px;
+	opacity: 0.8
+}
+#about .contadores .contadores-item .count-item-desc {
+	color: #660404;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+#about .video {
+	margin-top: 70px;
+}
+
+/*HELP*/
+#help {
+	background-image: url('../img/bg-contato.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFF;
+	padding: 60px 0;
+}
+#help form input {
+	background: transparent;
+	border: 2px solid #f5f6fa;
+	color: #FFF;
+}
+#help form input::placeholder{
+	color: #999;
+}
+#help form button {
+	background: transparent;
+	border: 2px solid #f5f6fa;
+	color: #f5f6fa;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+/*SERVICES*/
+#services .services-title {
+	height: 200px;
+	border: 1px solid red;
+}
